@@ -516,7 +516,7 @@ body {
 }
 
 .video-player.active1.active2 {
-  max-width: 1780px;
+  max-width: 1820px;
   margin: 50px auto 0px auto;
 }
 
@@ -1210,10 +1210,7 @@ body {
 
 @media only screen and (max-width: 1620px) {
   .right-bar_hidden {
-    right: -12%;
-  }
-  .left-bar_hidden {
-    left: -11%;
+    right: -14%;
   }
   .info-center {
     -ms-flex-pack: distribute;
@@ -1222,9 +1219,15 @@ body {
   }
 }
 
-@media only screen and (max-width: 1580px) {
+@media only screen and (max-width: 1590px) {
   .video-responsive {
-    width: 67%;
+    width: 76%;
+  }
+}
+
+@media only screen and (max-width: 1460px) {
+  .video-responsive {
+    width: 76%;
   }
 }
 
@@ -1243,9 +1246,9 @@ body {
   }
 }
 
-@media only screen and (max-width: 1470px) {
+@media only screen and (max-width: 1330px) {
   .video-responsive {
-    width: 65%;
+    width: 74.5%;
   }
 }
 
